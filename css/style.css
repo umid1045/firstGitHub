@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.boxWithPositions {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.porten_head {
+  width: 1920px;
+  height: 44px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.head1_icon {
+  display: flex;
+  flex-direction: column;
+}
+.porten_head1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.head1_text {
+  font-family: PT Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.53px;
+  text-align: left;
+  color: #969696;
+}
+
+.porten_head2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.head2_icon {
+  display: flex;
+  flex-direction: column;
+}
+.head2_text {
+  font-family: PT Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.53px;
+  text-align: right;
+  color: #969696;
+}
+.porten_h1Btn {
+  width: 1920px;
+  height: 80px;
+  top: 44px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #0f0f0f;
+  position: sticky;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.porten_h1 {
+  font-family: Stick No Bills;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 53.82px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0 469px 0 405px;
+}
+.btnOneBox {
+  width: 136px;
+  height: 80px;
+  top: 44px;
+  left: 978px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.btnOneText {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.12px;
+  text-align: left;
+  color: #ffffff;
+  border-color: #1f1f1f;
+  padding: 31px 20px;
+}
+.porten_btnOther {
+  display: flex;
+}
+.btnOther_text1 {
+  margin-right: 40px;
+}
+.btnOther_text2 {
+  margin-right: 60px;
+}
+.btnOther_icon1 {
+  margin-right: 40px;
+}
+.btnOther_icon2 {
+  margin-right: 405px;
+}
+.btnOther {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.12px;
+  text-align: left;
+  color: #969696;
+}
+.text_inPic {
+  width: 1920px;
+  height: 810px;
+  top: 124px;
+  gap: 0px;
+  opacity: 0px;
+  background: url(../pic/backgroundPic.svg);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.textBox_logo {
+  margin: 160px 800px 80px 800px;
+}
+.textBoxInBox {
+  width: 730px;
+  height: 96px;
+  top: 684px;
+  left: 595px;
+  gap: 0px;
+  opacity: 0px;
+}
+.textBox_text {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 595px 154px 595px;
+}
